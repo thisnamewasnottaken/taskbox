@@ -1,5 +1,219 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots InboxScreen Default 1`] = `
+<div
+  className="page lists-show"
+>
+  <nav>
+    <h1
+      className="title-page"
+    >
+      <span
+        className="title-wrapper"
+      >
+        Taskbox
+      </span>
+    </h1>
+  </nav>
+  <div
+    className="list-items"
+    data-testid="success"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Something"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Something more"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Something else"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Something again"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InboxScreen Error 1`] = `
+<div
+  className="page lists-show"
+>
+  <nav>
+    <h1
+      className="title-page"
+    >
+      <span
+        className="title-wrapper"
+      >
+        Taskbox
+      </span>
+    </h1>
+  </nav>
+  <div
+    className="list-items"
+    data-testid="loading"
+  >
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+    <div
+      className="loading-item"
+    >
+      <span
+        className="glow-checkbox"
+      />
+      <span
+        className="glow-text"
+      >
+        <span>
+          Loading
+        </span>
+         
+        <span>
+          cool
+        </span>
+         
+        <span>
+          state
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Task Archived 1`] = `
 <div
   className="list-item"
@@ -46,6 +260,7 @@ exports[`Storyshots TaskList Default 1`] = `
 >
   <div
     className="list-items"
+    data-testid="success"
   >
     <div
       className="list-item"
@@ -296,6 +511,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
 >
   <div
     className="list-items"
+    data-testid="success"
   >
     <div
       className="list-item"
