@@ -28,7 +28,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "developer_mode": "yarn test --watchAll && yarn storybook && yarn start"
   },
   "eslintConfig": {
     "extends": [
