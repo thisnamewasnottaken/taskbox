@@ -2,13 +2,11 @@
   "name": "intro-storybook-react-template",
   "version": "0.1.0",
   "description": "Starter template to get up and running quickly with React and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": "Me! Well, chromatic really",
+  "homepage": "https://thisnamewasnottaken.github.io/taskbox",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
-  },
-  "bugs": {
-    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
+    "url": "https://github.com/thisnamewasnottaken/taskbox"
   },
   "license": "MIT",
   "private": true,
@@ -21,7 +19,7 @@
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.8",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,10 +27,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o docs-build -s ./stories/assets",
     "developer:test": "yarn test --watchAll",
     "developer:storybook": "yarn storybook",
-    "developer:start": "yarn start"
+    "developer:start": "yarn start",
+    "predeploy": "yarn run build-storybook",
+    "deploy": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +63,7 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.4.22",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.4.22",
@@ -73,7 +74,8 @@
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.9",
     "@storybook/testing-react": "^1.2.4",
-    "msw": "^0.36.8",
+    "gh-pages": "^3.2.3",
+    "msw": "^0.39.2",
     "msw-storybook-addon": "^1.6.3",
     "react-test-renderer": "^18.0.0"
   },
